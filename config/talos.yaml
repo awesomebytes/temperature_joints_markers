@@ -1,0 +1,175 @@
+# threshold in between 0.0 and 1.0 for when to publish
+# the markers representing the temperature
+# 0.0 will publish all, 0.90 will publish only motors
+# with temperature at 90%+ on its range
+temperature_joints_general_publication_threshold: 0.7
+temperature_joints:
+  # Motor name, link to show, min and max temperature for colors of the marker
+  # - motor_name: gripper_left_motor
+  #   link_to_show: gripper_left_base_link
+  #   min_temperature: 20.0
+  #   max_temperature: 60.0
+  # - motor_name: gripper_right_motor
+  #   link_to_show: gripper_right_base_link
+  #   min_temperature: 20.0
+  #   max_temperature: 60.0
+
+  - motor_name: arm_left_1_motor
+    link_to_show: arm_left_1_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_left_2_motor
+    link_to_show: arm_left_2_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_left_3_motor
+    link_to_show: arm_left_3_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_left_4_motor
+    link_to_show: arm_left_4_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_left_5_motor
+    link_to_show: arm_left_5_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_left_6_motor
+    link_to_show: arm_left_6_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_left_7_motor
+    link_to_show: arm_left_7_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_right_1_motor
+    link_to_show: arm_right_1_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_right_2_motor
+    link_to_show: arm_right_2_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_right_3_motor
+    link_to_show: arm_right_3_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_right_4_motor
+    link_to_show: arm_right_4_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_right_5_motor
+    link_to_show: arm_right_5_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_right_6_motor
+    link_to_show: arm_right_6_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: arm_right_7_motor
+    link_to_show: arm_right_7_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: gripper_left_motor
+    link_to_show: gripper_left_base_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: gripper_right_motor
+    link_to_show: gripper_right_base_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: head_1_motor
+    link_to_show: head_1_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: head_2_motor
+    link_to_show: head_2_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_left_1_motor
+    link_to_show: leg_left_1_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_left_2_motor
+    link_to_show: leg_left_2_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_left_3_motor
+    link_to_show: leg_left_3_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_left_4_motor
+    link_to_show: leg_left_4_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_left_5_motor
+    link_to_show: leg_left_5_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_left_6_motor
+    link_to_show: leg_left_6_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_right_1_motor
+    link_to_show: leg_right_1_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_right_2_motor
+    link_to_show: leg_right_2_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_right_3_motor
+    link_to_show: leg_right_3_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_right_4_motor
+    link_to_show: leg_right_4_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_right_5_motor
+    link_to_show: leg_right_5_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: leg_right_6_motor
+    link_to_show: leg_right_6_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: torso_1_motor
+    link_to_show: torso_1_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
+  - motor_name: torso_2_motor
+    link_to_show: torso_2_link
+    min_temperature: 20.0
+    max_temperature: 60.0

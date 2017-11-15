@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="temperature_joints_markers"
+        name="talos_temperature_markers"
+        type="temperature_to_markers.py">
+        <rosparam command="load"
+            file="$(find temperature_joints_markers)/config/talos.yaml"/>
+    </node>
+    
+</launch>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>temperature_joints_markers</name>
+  <version>0.0.0</version>
+  <description>The temperature_joints_markers package</description>
+
+  <maintainer email="Sammy.Pfeiffer@student.uts.edu.au">Sammy Pfeiffer</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>diagnostics_msgs</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+
+
+</package>
