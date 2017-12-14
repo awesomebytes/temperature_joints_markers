@@ -109,6 +109,11 @@ temperature_joints:
     min_temperature: 20.0
     max_temperature: 60.0
 
+  - motor_name: leg_left_1_motor
+    link_to_show: base_link
+    min_temperature: 20.0
+    max_temperature: 60.0
+
   - motor_name: leg_left_2_motor
     link_to_show: leg_left_2_link
     min_temperature: 20.0
