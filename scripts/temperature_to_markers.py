@@ -16,8 +16,8 @@ Author: Sammy Pfeiffer <Sammy.Pfeiffer at student.uts.edu.au>
 
 class TemperatureMarkers(object):
     def __init__(self):
-        self.config = rospy.get_param('temperature_joints', None)
-        self.general_threshold = rospy.get_param('temperature_joints_general_publication_threshold', 0.0)
+        self.config = rospy.get_param('~temperature_joints', None)
+        self.general_threshold = rospy.get_param('~temperature_joints_general_publication_threshold', 0.0)
         if self.config is None:
             rospy.logerr("No configuration found in param server")
 
